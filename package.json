@@ -1,0 +1,30 @@
+{
+  "name": "minin--website-builder-",
+  "version": "1.0.0",
+  "description": "quick course where javascript is clean we make a website builder (september 2020)",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gumerov-Marat/minin--website-builder-.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Gumerov Marat gumerovn74@gmail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gumerov-Marat/minin--website-builder-/issues"
+  },
+  "homepage": "https://github.com/Gumerov-Marat/minin--website-builder-#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
